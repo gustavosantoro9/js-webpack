@@ -1,0 +1,16 @@
+ @font-face {
+  font-family: 'ComicSans';
+  src:  url('./ComicSans.woff2') format('woff2'),
+        url('./ComicSans.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.hello {
+  color: red;
+  font-family: 'ComicSans';
+}
+
+.image{
+  background: url('./icon.png');
+}
